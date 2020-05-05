@@ -6,23 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/startbtn"
-        android:layout_width="116dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:text="START"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="447dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="423dp"
         android:layout_height="239dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="185dp"
         android:text="Penalty Prodigy"
         android:textColor="#000000"
         android:textSize="72sp"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="185dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="153dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="156dp"
+        android:background="#0057C627"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
